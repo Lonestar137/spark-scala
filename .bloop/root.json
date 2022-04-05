@@ -19,6 +19,7 @@
             "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.4.8/spark-core_2.11-2.4.8.jar",
             "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-hive_2.11/2.4.8/spark-hive_2.11-2.4.8.jar",
             "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.4.8/spark-sql_2.11-2.4.8.jar",
+            "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/tototoshi/scala-csv_2.11/1.3.10/scala-csv_2.11-1.3.10.jar",
             "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar",
             "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/avro/avro/1.8.2/avro-1.8.2.jar",
             "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/avro/avro-mapred/1.8.2/avro-mapred-1.8.2-hadoop2.jar",
@@ -305,6 +306,11 @@
                         {
                             "name": "scala-library",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12-sources.jar"
                         }
                     ]
                 },
@@ -317,6 +323,11 @@
                         {
                             "name": "spark-core_2.11",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.4.8/spark-core_2.11-2.4.8.jar"
+                        },
+                        {
+                            "name": "spark-core_2.11",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.4.8/spark-core_2.11-2.4.8-sources.jar"
                         }
                     ]
                 },
@@ -329,6 +340,11 @@
                         {
                             "name": "spark-hive_2.11",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-hive_2.11/2.4.8/spark-hive_2.11-2.4.8.jar"
+                        },
+                        {
+                            "name": "spark-hive_2.11",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-hive_2.11/2.4.8/spark-hive_2.11-2.4.8-sources.jar"
                         }
                     ]
                 },
@@ -341,6 +357,28 @@
                         {
                             "name": "spark-sql_2.11",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.4.8/spark-sql_2.11-2.4.8.jar"
+                        },
+                        {
+                            "name": "spark-sql_2.11",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.4.8/spark-sql_2.11-2.4.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.tototoshi",
+                    "name": "scala-csv_2.11",
+                    "version": "1.3.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-csv_2.11",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/tototoshi/scala-csv_2.11/1.3.10/scala-csv_2.11-1.3.10.jar"
+                        },
+                        {
+                            "name": "scala-csv_2.11",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/tototoshi/scala-csv_2.11/1.3.10/scala-csv_2.11-1.3.10-sources.jar"
                         }
                     ]
                 },
@@ -353,6 +391,11 @@
                         {
                             "name": "paranamer",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar"
+                        },
+                        {
+                            "name": "paranamer",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar"
                         }
                     ]
                 },
@@ -365,6 +408,11 @@
                         {
                             "name": "avro",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/avro/avro/1.8.2/avro-1.8.2.jar"
+                        },
+                        {
+                            "name": "avro",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/avro/avro/1.8.2/avro-1.8.2-sources.jar"
                         }
                     ]
                 },
@@ -377,6 +425,11 @@
                         {
                             "name": "chill_2.11",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twitter/chill_2.11/0.9.3/chill_2.11-0.9.3.jar"
+                        },
+                        {
+                            "name": "chill_2.11",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twitter/chill_2.11/0.9.3/chill_2.11-0.9.3-sources.jar"
                         }
                     ]
                 },
@@ -389,6 +442,11 @@
                         {
                             "name": "chill-java",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twitter/chill-java/0.9.3/chill-java-0.9.3.jar"
+                        },
+                        {
+                            "name": "chill-java",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twitter/chill-java/0.9.3/chill-java-0.9.3-sources.jar"
                         }
                     ]
                 },
@@ -401,6 +459,11 @@
                         {
                             "name": "xbean-asm6-shaded",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/xbean/xbean-asm6-shaded/4.8/xbean-asm6-shaded-4.8.jar"
+                        },
+                        {
+                            "name": "xbean-asm6-shaded",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/xbean/xbean-asm6-shaded/4.8/xbean-asm6-shaded-4.8-sources.jar"
                         }
                     ]
                 },
@@ -413,6 +476,11 @@
                         {
                             "name": "hadoop-client",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-client/2.6.5/hadoop-client-2.6.5.jar"
+                        },
+                        {
+                            "name": "hadoop-client",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-client/2.6.5/hadoop-client-2.6.5-sources.jar"
                         }
                     ]
                 },
@@ -425,6 +493,11 @@
                         {
                             "name": "spark-launcher_2.11",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.11/2.4.8/spark-launcher_2.11-2.4.8.jar"
+                        },
+                        {
+                            "name": "spark-launcher_2.11",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.11/2.4.8/spark-launcher_2.11-2.4.8-sources.jar"
                         }
                     ]
                 },
@@ -437,6 +510,11 @@
                         {
                             "name": "spark-kvstore_2.11",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-kvstore_2.11/2.4.8/spark-kvstore_2.11-2.4.8.jar"
+                        },
+                        {
+                            "name": "spark-kvstore_2.11",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-kvstore_2.11/2.4.8/spark-kvstore_2.11-2.4.8-sources.jar"
                         }
                     ]
                 },
@@ -449,6 +527,11 @@
                         {
                             "name": "spark-network-common_2.11",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.11/2.4.8/spark-network-common_2.11-2.4.8.jar"
+                        },
+                        {
+                            "name": "spark-network-common_2.11",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.11/2.4.8/spark-network-common_2.11-2.4.8-sources.jar"
                         }
                     ]
                 },
@@ -461,6 +544,11 @@
                         {
                             "name": "spark-network-shuffle_2.11",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.11/2.4.8/spark-network-shuffle_2.11-2.4.8.jar"
+                        },
+                        {
+                            "name": "spark-network-shuffle_2.11",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.11/2.4.8/spark-network-shuffle_2.11-2.4.8-sources.jar"
                         }
                     ]
                 },
@@ -473,6 +561,11 @@
                         {
                             "name": "spark-unsafe_2.11",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.11/2.4.8/spark-unsafe_2.11-2.4.8.jar"
+                        },
+                        {
+                            "name": "spark-unsafe_2.11",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.11/2.4.8/spark-unsafe_2.11-2.4.8-sources.jar"
                         }
                     ]
                 },
@@ -485,6 +578,11 @@
                         {
                             "name": "activation",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/activation/activation/1.1.1/activation-1.1.1.jar"
+                        },
+                        {
+                            "name": "activation",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/activation/activation/1.1.1/activation-1.1.1-sources.jar"
                         }
                     ]
                 },
@@ -497,6 +595,11 @@
                         {
                             "name": "curator-recipes",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/curator/curator-recipes/2.6.0/curator-recipes-2.6.0.jar"
+                        },
+                        {
+                            "name": "curator-recipes",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/curator/curator-recipes/2.6.0/curator-recipes-2.6.0-sources.jar"
                         }
                     ]
                 },
@@ -509,6 +612,11 @@
                         {
                             "name": "zookeeper",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar"
+                        },
+                        {
+                            "name": "zookeeper",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6-sources.jar"
                         }
                     ]
                 },
@@ -521,6 +629,11 @@
                         {
                             "name": "javax.servlet-api",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar"
+                        },
+                        {
+                            "name": "javax.servlet-api",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar"
                         }
                     ]
                 },
@@ -533,6 +646,11 @@
                         {
                             "name": "commons-lang3",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar"
+                        },
+                        {
+                            "name": "commons-lang3",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5-sources.jar"
                         }
                     ]
                 },
@@ -545,6 +663,11 @@
                         {
                             "name": "commons-math3",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-math3/3.4.1/commons-math3-3.4.1.jar"
+                        },
+                        {
+                            "name": "commons-math3",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-math3/3.4.1/commons-math3-3.4.1-sources.jar"
                         }
                     ]
                 },
@@ -557,6 +680,11 @@
                         {
                             "name": "jsr305",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+                        },
+                        {
+                            "name": "jsr305",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar"
                         }
                     ]
                 },
@@ -569,6 +697,11 @@
                         {
                             "name": "slf4j-api",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar"
                         }
                     ]
                 },
@@ -581,6 +714,11 @@
                         {
                             "name": "jul-to-slf4j",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.16/jul-to-slf4j-1.7.16.jar"
+                        },
+                        {
+                            "name": "jul-to-slf4j",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.16/jul-to-slf4j-1.7.16-sources.jar"
                         }
                     ]
                 },
@@ -593,6 +731,11 @@
                         {
                             "name": "jcl-over-slf4j",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.16/jcl-over-slf4j-1.7.16.jar"
+                        },
+                        {
+                            "name": "jcl-over-slf4j",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.16/jcl-over-slf4j-1.7.16-sources.jar"
                         }
                     ]
                 },
@@ -605,6 +748,11 @@
                         {
                             "name": "log4j",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.jar"
+                        },
+                        {
+                            "name": "log4j",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar"
                         }
                     ]
                 },
@@ -617,6 +765,11 @@
                         {
                             "name": "slf4j-log4j12",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.7.16/slf4j-log4j12-1.7.16.jar"
+                        },
+                        {
+                            "name": "slf4j-log4j12",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.7.16/slf4j-log4j12-1.7.16-sources.jar"
                         }
                     ]
                 },
@@ -629,6 +782,11 @@
                         {
                             "name": "compress-lzf",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/ning/compress-lzf/1.0.3/compress-lzf-1.0.3.jar"
+                        },
+                        {
+                            "name": "compress-lzf",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/ning/compress-lzf/1.0.3/compress-lzf-1.0.3-sources.jar"
                         }
                     ]
                 },
@@ -641,6 +799,11 @@
                         {
                             "name": "snappy-java",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.8.2/snappy-java-1.1.8.2.jar"
+                        },
+                        {
+                            "name": "snappy-java",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.8.2/snappy-java-1.1.8.2-sources.jar"
                         }
                     ]
                 },
@@ -653,6 +816,11 @@
                         {
                             "name": "lz4-java",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/lz4/lz4-java/1.4.0/lz4-java-1.4.0.jar"
+                        },
+                        {
+                            "name": "lz4-java",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/lz4/lz4-java/1.4.0/lz4-java-1.4.0-sources.jar"
                         }
                     ]
                 },
@@ -665,6 +833,11 @@
                         {
                             "name": "zstd-jni",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/luben/zstd-jni/1.4.4-3/zstd-jni-1.4.4-3.jar"
+                        },
+                        {
+                            "name": "zstd-jni",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/luben/zstd-jni/1.4.4-3/zstd-jni-1.4.4-3-sources.jar"
                         }
                     ]
                 },
@@ -677,6 +850,11 @@
                         {
                             "name": "RoaringBitmap",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/roaringbitmap/RoaringBitmap/0.7.45/RoaringBitmap-0.7.45.jar"
+                        },
+                        {
+                            "name": "RoaringBitmap",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/roaringbitmap/RoaringBitmap/0.7.45/RoaringBitmap-0.7.45-sources.jar"
                         }
                     ]
                 },
@@ -689,6 +867,11 @@
                         {
                             "name": "commons-net",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-net/commons-net/3.1/commons-net-3.1.jar"
+                        },
+                        {
+                            "name": "commons-net",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-net/commons-net/3.1/commons-net-3.1-sources.jar"
                         }
                     ]
                 },
@@ -701,6 +884,11 @@
                         {
                             "name": "json4s-jackson_2.11",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-jackson_2.11/3.5.3/json4s-jackson_2.11-3.5.3.jar"
+                        },
+                        {
+                            "name": "json4s-jackson_2.11",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-jackson_2.11/3.5.3/json4s-jackson_2.11-3.5.3-sources.jar"
                         }
                     ]
                 },
@@ -713,6 +901,11 @@
                         {
                             "name": "jersey-client",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/2.22.2/jersey-client-2.22.2.jar"
+                        },
+                        {
+                            "name": "jersey-client",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/2.22.2/jersey-client-2.22.2-sources.jar"
                         }
                     ]
                 },
@@ -725,6 +918,11 @@
                         {
                             "name": "jersey-common",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-common/2.22.2/jersey-common-2.22.2.jar"
+                        },
+                        {
+                            "name": "jersey-common",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-common/2.22.2/jersey-common-2.22.2-sources.jar"
                         }
                     ]
                 },
@@ -737,6 +935,11 @@
                         {
                             "name": "jersey-server",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-server/2.22.2/jersey-server-2.22.2.jar"
+                        },
+                        {
+                            "name": "jersey-server",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-server/2.22.2/jersey-server-2.22.2-sources.jar"
                         }
                     ]
                 },
@@ -749,6 +952,11 @@
                         {
                             "name": "jersey-container-servlet",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet/2.22.2/jersey-container-servlet-2.22.2.jar"
+                        },
+                        {
+                            "name": "jersey-container-servlet",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet/2.22.2/jersey-container-servlet-2.22.2-sources.jar"
                         }
                     ]
                 },
@@ -761,6 +969,11 @@
                         {
                             "name": "jersey-container-servlet-core",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.22.2/jersey-container-servlet-core-2.22.2.jar"
+                        },
+                        {
+                            "name": "jersey-container-servlet-core",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.22.2/jersey-container-servlet-core-2.22.2-sources.jar"
                         }
                     ]
                 },
@@ -773,6 +986,11 @@
                         {
                             "name": "netty-all",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-all/4.1.47.Final/netty-all-4.1.47.Final.jar"
+                        },
+                        {
+                            "name": "netty-all",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-all/4.1.47.Final/netty-all-4.1.47.Final-sources.jar"
                         }
                     ]
                 },
@@ -785,6 +1003,11 @@
                         {
                             "name": "netty",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty/3.9.9.Final/netty-3.9.9.Final.jar"
+                        },
+                        {
+                            "name": "netty",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty/3.9.9.Final/netty-3.9.9.Final-sources.jar"
                         }
                     ]
                 },
@@ -797,6 +1020,11 @@
                         {
                             "name": "stream",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/clearspring/analytics/stream/2.7.0/stream-2.7.0.jar"
+                        },
+                        {
+                            "name": "stream",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/clearspring/analytics/stream/2.7.0/stream-2.7.0-sources.jar"
                         }
                     ]
                 },
@@ -809,6 +1037,11 @@
                         {
                             "name": "metrics-core",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/io/dropwizard/metrics/metrics-core/3.1.5/metrics-core-3.1.5.jar"
+                        },
+                        {
+                            "name": "metrics-core",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/io/dropwizard/metrics/metrics-core/3.1.5/metrics-core-3.1.5-sources.jar"
                         }
                     ]
                 },
@@ -821,6 +1054,11 @@
                         {
                             "name": "metrics-jvm",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/io/dropwizard/metrics/metrics-jvm/3.1.5/metrics-jvm-3.1.5.jar"
+                        },
+                        {
+                            "name": "metrics-jvm",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/io/dropwizard/metrics/metrics-jvm/3.1.5/metrics-jvm-3.1.5-sources.jar"
                         }
                     ]
                 },
@@ -833,6 +1071,11 @@
                         {
                             "name": "metrics-json",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/io/dropwizard/metrics/metrics-json/3.1.5/metrics-json-3.1.5.jar"
+                        },
+                        {
+                            "name": "metrics-json",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/io/dropwizard/metrics/metrics-json/3.1.5/metrics-json-3.1.5-sources.jar"
                         }
                     ]
                 },
@@ -845,6 +1088,11 @@
                         {
                             "name": "metrics-graphite",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/io/dropwizard/metrics/metrics-graphite/3.1.5/metrics-graphite-3.1.5.jar"
+                        },
+                        {
+                            "name": "metrics-graphite",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/io/dropwizard/metrics/metrics-graphite/3.1.5/metrics-graphite-3.1.5-sources.jar"
                         }
                     ]
                 },
@@ -857,6 +1105,11 @@
                         {
                             "name": "jackson-databind",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.7.3/jackson-databind-2.6.7.3.jar"
+                        },
+                        {
+                            "name": "jackson-databind",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.7.3/jackson-databind-2.6.7.3-sources.jar"
                         }
                     ]
                 },
@@ -869,6 +1122,11 @@
                         {
                             "name": "jackson-module-scala_2.11",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.11/2.6.7.1/jackson-module-scala_2.11-2.6.7.1.jar"
+                        },
+                        {
+                            "name": "jackson-module-scala_2.11",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.11/2.6.7.1/jackson-module-scala_2.11-2.6.7.1-sources.jar"
                         }
                     ]
                 },
@@ -881,6 +1139,11 @@
                         {
                             "name": "ivy",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/ivy/ivy/2.4.0/ivy-2.4.0.jar"
+                        },
+                        {
+                            "name": "ivy",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/ivy/ivy/2.4.0/ivy-2.4.0-sources.jar"
                         }
                     ]
                 },
@@ -893,6 +1156,11 @@
                         {
                             "name": "oro",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/oro/oro/2.0.8/oro-2.0.8.jar"
+                        },
+                        {
+                            "name": "oro",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/oro/oro/2.0.8/oro-2.0.8-sources.jar"
                         }
                     ]
                 },
@@ -905,6 +1173,11 @@
                         {
                             "name": "pyrolite",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/net/razorvine/pyrolite/4.13/pyrolite-4.13.jar"
+                        },
+                        {
+                            "name": "pyrolite",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/net/razorvine/pyrolite/4.13/pyrolite-4.13-sources.jar"
                         }
                     ]
                 },
@@ -917,6 +1190,11 @@
                         {
                             "name": "py4j",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/net/sf/py4j/py4j/0.10.7/py4j-0.10.7.jar"
+                        },
+                        {
+                            "name": "py4j",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/net/sf/py4j/py4j/0.10.7/py4j-0.10.7-sources.jar"
                         }
                     ]
                 },
@@ -929,6 +1207,11 @@
                         {
                             "name": "spark-tags_2.11",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-tags_2.11/2.4.8/spark-tags_2.11-2.4.8.jar"
+                        },
+                        {
+                            "name": "spark-tags_2.11",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-tags_2.11/2.4.8/spark-tags_2.11-2.4.8-sources.jar"
                         }
                     ]
                 },
@@ -941,6 +1224,11 @@
                         {
                             "name": "commons-crypto",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-crypto/1.0.0/commons-crypto-1.0.0.jar"
+                        },
+                        {
+                            "name": "commons-crypto",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-crypto/1.0.0/commons-crypto-1.0.0-sources.jar"
                         }
                     ]
                 },
@@ -953,6 +1241,11 @@
                         {
                             "name": "unused",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/spark/unused/1.0.0/unused-1.0.0.jar"
+                        },
+                        {
+                            "name": "unused",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/spark/unused/1.0.0/unused-1.0.0-sources.jar"
                         }
                     ]
                 },
@@ -965,6 +1258,11 @@
                         {
                             "name": "parquet-hadoop-bundle",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twitter/parquet-hadoop-bundle/1.6.0/parquet-hadoop-bundle-1.6.0.jar"
+                        },
+                        {
+                            "name": "parquet-hadoop-bundle",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twitter/parquet-hadoop-bundle/1.6.0/parquet-hadoop-bundle-1.6.0-sources.jar"
                         }
                     ]
                 },
@@ -977,6 +1275,11 @@
                         {
                             "name": "hive-exec",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar"
+                        },
+                        {
+                            "name": "hive-exec",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2-sources.jar"
                         }
                     ]
                 },
@@ -989,6 +1292,11 @@
                         {
                             "name": "hive-metastore",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-metastore/1.2.1.spark2/hive-metastore-1.2.1.spark2.jar"
+                        },
+                        {
+                            "name": "hive-metastore",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/hive/hive-metastore/1.2.1.spark2/hive-metastore-1.2.1.spark2-sources.jar"
                         }
                     ]
                 },
@@ -1001,6 +1309,11 @@
                         {
                             "name": "commons-httpclient",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar"
+                        },
+                        {
+                            "name": "commons-httpclient",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1-sources.jar"
                         }
                     ]
                 },
@@ -1013,6 +1326,11 @@
                         {
                             "name": "calcite-avatica",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/calcite/calcite-avatica/1.2.0-incubating/calcite-avatica-1.2.0-incubating.jar"
+                        },
+                        {
+                            "name": "calcite-avatica",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/calcite/calcite-avatica/1.2.0-incubating/calcite-avatica-1.2.0-incubating-sources.jar"
                         }
                     ]
                 },
@@ -1025,6 +1343,11 @@
                         {
                             "name": "calcite-core",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/calcite/calcite-core/1.2.0-incubating/calcite-core-1.2.0-incubating.jar"
+                        },
+                        {
+                            "name": "calcite-core",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/calcite/calcite-core/1.2.0-incubating/calcite-core-1.2.0-incubating-sources.jar"
                         }
                     ]
                 },
@@ -1037,6 +1360,11 @@
                         {
                             "name": "httpclient",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar"
+                        },
+                        {
+                            "name": "httpclient",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6-sources.jar"
                         }
                     ]
                 },
@@ -1049,6 +1377,11 @@
                         {
                             "name": "jackson-mapper-asl",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar"
+                        },
+                        {
+                            "name": "jackson-mapper-asl",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13-sources.jar"
                         }
                     ]
                 },
@@ -1061,6 +1394,11 @@
                         {
                             "name": "commons-codec",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.jar"
+                        },
+                        {
+                            "name": "commons-codec",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10-sources.jar"
                         }
                     ]
                 },
@@ -1073,6 +1411,11 @@
                         {
                             "name": "joda-time",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9.jar"
+                        },
+                        {
+                            "name": "joda-time",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9-sources.jar"
                         }
                     ]
                 },
@@ -1085,6 +1428,11 @@
                         {
                             "name": "jodd-core",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jodd/jodd-core/3.5.2/jodd-core-3.5.2.jar"
+                        },
+                        {
+                            "name": "jodd-core",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jodd/jodd-core/3.5.2/jodd-core-3.5.2-sources.jar"
                         }
                     ]
                 },
@@ -1097,6 +1445,11 @@
                         {
                             "name": "datanucleus-core",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/datanucleus/datanucleus-core/3.2.10/datanucleus-core-3.2.10.jar"
+                        },
+                        {
+                            "name": "datanucleus-core",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/datanucleus/datanucleus-core/3.2.10/datanucleus-core-3.2.10-sources.jar"
                         }
                     ]
                 },
@@ -1109,6 +1462,11 @@
                         {
                             "name": "libthrift",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/thrift/libthrift/0.9.3/libthrift-0.9.3.jar"
+                        },
+                        {
+                            "name": "libthrift",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/thrift/libthrift/0.9.3/libthrift-0.9.3-sources.jar"
                         }
                     ]
                 },
@@ -1145,6 +1503,11 @@
                         {
                             "name": "univocity-parsers",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/univocity/univocity-parsers/2.7.3/univocity-parsers-2.7.3.jar"
+                        },
+                        {
+                            "name": "univocity-parsers",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/univocity/univocity-parsers/2.7.3/univocity-parsers-2.7.3-sources.jar"
                         }
                     ]
                 },
@@ -1157,6 +1520,11 @@
                         {
                             "name": "spark-sketch_2.11",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-sketch_2.11/2.4.8/spark-sketch_2.11-2.4.8.jar"
+                        },
+                        {
+                            "name": "spark-sketch_2.11",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-sketch_2.11/2.4.8/spark-sketch_2.11-2.4.8-sources.jar"
                         }
                     ]
                 },
@@ -1169,6 +1537,11 @@
                         {
                             "name": "spark-catalyst_2.11",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.4.8/spark-catalyst_2.11-2.4.8.jar"
+                        },
+                        {
+                            "name": "spark-catalyst_2.11",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.4.8/spark-catalyst_2.11-2.4.8-sources.jar"
                         }
                     ]
                 },
@@ -1181,6 +1554,11 @@
                         {
                             "name": "parquet-column",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.10.1/parquet-column-1.10.1.jar"
+                        },
+                        {
+                            "name": "parquet-column",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.10.1/parquet-column-1.10.1-sources.jar"
                         }
                     ]
                 },
@@ -1193,6 +1571,11 @@
                         {
                             "name": "parquet-hadoop",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/parquet/parquet-hadoop/1.10.1/parquet-hadoop-1.10.1.jar"
+                        },
+                        {
+                            "name": "parquet-hadoop",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/parquet/parquet-hadoop/1.10.1/parquet-hadoop-1.10.1-sources.jar"
                         }
                     ]
                 },
@@ -1205,6 +1588,11 @@
                         {
                             "name": "arrow-vector",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-vector/0.10.0/arrow-vector-0.10.0.jar"
+                        },
+                        {
+                            "name": "arrow-vector",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-vector/0.10.0/arrow-vector-0.10.0-sources.jar"
                         }
                     ]
                 },
@@ -1217,6 +1605,11 @@
                         {
                             "name": "jackson-core-asl",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar"
+                        },
+                        {
+                            "name": "jackson-core-asl",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13-sources.jar"
                         }
                     ]
                 },
@@ -1229,6 +1622,11 @@
                         {
                             "name": "commons-compress",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar"
+                        },
+                        {
+                            "name": "commons-compress",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1-sources.jar"
                         }
                     ]
                 },
@@ -1241,6 +1639,11 @@
                         {
                             "name": "xz",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/tukaani/xz/1.5/xz-1.5.jar"
+                        },
+                        {
+                            "name": "xz",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/tukaani/xz/1.5/xz-1.5-sources.jar"
                         }
                     ]
                 },
@@ -1253,6 +1656,11 @@
                         {
                             "name": "avro-ipc",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/avro/avro-ipc/1.8.2/avro-ipc-1.8.2.jar"
+                        },
+                        {
+                            "name": "avro-ipc",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/avro/avro-ipc/1.8.2/avro-ipc-1.8.2-sources.jar"
                         }
                     ]
                 },
@@ -1265,6 +1673,11 @@
                         {
                             "name": "kryo-shaded",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/esotericsoftware/kryo-shaded/4.0.2/kryo-shaded-4.0.2.jar"
+                        },
+                        {
+                            "name": "kryo-shaded",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/esotericsoftware/kryo-shaded/4.0.2/kryo-shaded-4.0.2-sources.jar"
                         }
                     ]
                 },
@@ -1277,6 +1690,11 @@
                         {
                             "name": "hadoop-common",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.6.5/hadoop-common-2.6.5.jar"
+                        },
+                        {
+                            "name": "hadoop-common",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.6.5/hadoop-common-2.6.5-sources.jar"
                         }
                     ]
                 },
@@ -1289,6 +1707,11 @@
                         {
                             "name": "hadoop-hdfs",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.6.5/hadoop-hdfs-2.6.5.jar"
+                        },
+                        {
+                            "name": "hadoop-hdfs",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.6.5/hadoop-hdfs-2.6.5-sources.jar"
                         }
                     ]
                 },
@@ -1301,6 +1724,11 @@
                         {
                             "name": "hadoop-mapreduce-client-app",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.6.5/hadoop-mapreduce-client-app-2.6.5.jar"
+                        },
+                        {
+                            "name": "hadoop-mapreduce-client-app",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.6.5/hadoop-mapreduce-client-app-2.6.5-sources.jar"
                         }
                     ]
                 },
@@ -1313,6 +1741,11 @@
                         {
                             "name": "hadoop-yarn-api",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.6.5/hadoop-yarn-api-2.6.5.jar"
+                        },
+                        {
+                            "name": "hadoop-yarn-api",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.6.5/hadoop-yarn-api-2.6.5-sources.jar"
                         }
                     ]
                 },
@@ -1325,6 +1758,11 @@
                         {
                             "name": "hadoop-mapreduce-client-core",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.5/hadoop-mapreduce-client-core-2.6.5.jar"
+                        },
+                        {
+                            "name": "hadoop-mapreduce-client-core",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.5/hadoop-mapreduce-client-core-2.6.5-sources.jar"
                         }
                     ]
                 },
@@ -1337,6 +1775,11 @@
                         {
                             "name": "hadoop-mapreduce-client-jobclient",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.6.5/hadoop-mapreduce-client-jobclient-2.6.5.jar"
+                        },
+                        {
+                            "name": "hadoop-mapreduce-client-jobclient",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.6.5/hadoop-mapreduce-client-jobclient-2.6.5-sources.jar"
                         }
                     ]
                 },
@@ -1349,6 +1792,11 @@
                         {
                             "name": "hadoop-annotations",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-annotations/2.6.5/hadoop-annotations-2.6.5.jar"
+                        },
+                        {
+                            "name": "hadoop-annotations",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-annotations/2.6.5/hadoop-annotations-2.6.5-sources.jar"
                         }
                     ]
                 },
@@ -1361,6 +1809,11 @@
                         {
                             "name": "leveldbjni-all",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-all/1.8/leveldbjni-all-1.8.jar"
+                        },
+                        {
+                            "name": "leveldbjni-all",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-all/1.8/leveldbjni-all-1.8-sources.jar"
                         }
                     ]
                 },
@@ -1373,6 +1826,11 @@
                         {
                             "name": "jackson-core",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.7.9/jackson-core-2.7.9.jar"
+                        },
+                        {
+                            "name": "jackson-core",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.7.9/jackson-core-2.7.9-sources.jar"
                         }
                     ]
                 },
@@ -1385,6 +1843,11 @@
                         {
                             "name": "jackson-annotations",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.6.7/jackson-annotations-2.6.7.jar"
+                        },
+                        {
+                            "name": "jackson-annotations",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.6.7/jackson-annotations-2.6.7-sources.jar"
                         }
                     ]
                 },
@@ -1397,6 +1860,11 @@
                         {
                             "name": "curator-framework",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/curator/curator-framework/2.6.0/curator-framework-2.6.0.jar"
+                        },
+                        {
+                            "name": "curator-framework",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/curator/curator-framework/2.6.0/curator-framework-2.6.0-sources.jar"
                         }
                     ]
                 },
@@ -1409,6 +1877,11 @@
                         {
                             "name": "guava",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/16.0.1/guava-16.0.1.jar"
+                        },
+                        {
+                            "name": "guava",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/16.0.1/guava-16.0.1-sources.jar"
                         }
                     ]
                 },
@@ -1421,6 +1894,11 @@
                         {
                             "name": "shims",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/roaringbitmap/shims/0.7.45/shims-0.7.45.jar"
+                        },
+                        {
+                            "name": "shims",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/roaringbitmap/shims/0.7.45/shims-0.7.45-sources.jar"
                         }
                     ]
                 },
@@ -1433,6 +1911,11 @@
                         {
                             "name": "json4s-core_2.11",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-core_2.11/3.5.3/json4s-core_2.11-3.5.3.jar"
+                        },
+                        {
+                            "name": "json4s-core_2.11",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-core_2.11/3.5.3/json4s-core_2.11-3.5.3-sources.jar"
                         }
                     ]
                 },
@@ -1445,6 +1928,11 @@
                         {
                             "name": "javax.ws.rs-api",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar"
+                        },
+                        {
+                            "name": "javax.ws.rs-api",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1-sources.jar"
                         }
                     ]
                 },
@@ -1457,6 +1945,11 @@
                         {
                             "name": "hk2-api",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/2.4.0-b34/hk2-api-2.4.0-b34.jar"
+                        },
+                        {
+                            "name": "hk2-api",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/2.4.0-b34/hk2-api-2.4.0-b34-sources.jar"
                         }
                     ]
                 },
@@ -1469,6 +1962,11 @@
                         {
                             "name": "javax.inject",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/javax.inject/2.4.0-b34/javax.inject-2.4.0-b34.jar"
+                        },
+                        {
+                            "name": "javax.inject",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/javax.inject/2.4.0-b34/javax.inject-2.4.0-b34-sources.jar"
                         }
                     ]
                 },
@@ -1481,6 +1979,11 @@
                         {
                             "name": "hk2-locator",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/2.4.0-b34/hk2-locator-2.4.0-b34.jar"
+                        },
+                        {
+                            "name": "hk2-locator",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/2.4.0-b34/hk2-locator-2.4.0-b34-sources.jar"
                         }
                     ]
                 },
@@ -1493,6 +1996,11 @@
                         {
                             "name": "javax.annotation-api",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar"
+                        },
+                        {
+                            "name": "javax.annotation-api",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2-sources.jar"
                         }
                     ]
                 },
@@ -1505,6 +2013,11 @@
                         {
                             "name": "jersey-guava",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2/jersey-guava-2.22.2.jar"
+                        },
+                        {
+                            "name": "jersey-guava",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2/jersey-guava-2.22.2-sources.jar"
                         }
                     ]
                 },
@@ -1517,6 +2030,11 @@
                         {
                             "name": "osgi-resource-locator",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.jar"
+                        },
+                        {
+                            "name": "osgi-resource-locator",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1-sources.jar"
                         }
                     ]
                 },
@@ -1529,6 +2047,11 @@
                         {
                             "name": "jersey-media-jaxb",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-jaxb/2.22.2/jersey-media-jaxb-2.22.2.jar"
+                        },
+                        {
+                            "name": "jersey-media-jaxb",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-jaxb/2.22.2/jersey-media-jaxb-2.22.2-sources.jar"
                         }
                     ]
                 },
@@ -1541,6 +2064,11 @@
                         {
                             "name": "validation-api",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar"
+                        },
+                        {
+                            "name": "validation-api",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final-sources.jar"
                         }
                     ]
                 },
@@ -1553,6 +2081,11 @@
                         {
                             "name": "scala-reflect",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.12/scala-reflect-2.11.12.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.12/scala-reflect-2.11.12-sources.jar"
                         }
                     ]
                 },
@@ -1565,6 +2098,11 @@
                         {
                             "name": "jackson-module-paranamer",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.7.9/jackson-module-paranamer-2.7.9.jar"
+                        },
+                        {
+                            "name": "jackson-module-paranamer",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.7.9/jackson-module-paranamer-2.7.9-sources.jar"
                         }
                     ]
                 },
@@ -1577,6 +2115,11 @@
                         {
                             "name": "commons-io",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar"
+                        },
+                        {
+                            "name": "commons-io",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-sources.jar"
                         }
                     ]
                 },
@@ -1589,6 +2132,11 @@
                         {
                             "name": "commons-lang",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"
+                        },
+                        {
+                            "name": "commons-lang",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar"
                         }
                     ]
                 },
@@ -1601,6 +2149,11 @@
                         {
                             "name": "javolution",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/javolution/javolution/5.5.1/javolution-5.5.1.jar"
+                        },
+                        {
+                            "name": "javolution",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/javolution/javolution/5.5.1/javolution-5.5.1-sources.jar"
                         }
                     ]
                 },
@@ -1625,6 +2178,11 @@
                         {
                             "name": "antlr-runtime",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr-runtime/3.4/antlr-runtime-3.4.jar"
+                        },
+                        {
+                            "name": "antlr-runtime",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr-runtime/3.4/antlr-runtime-3.4-sources.jar"
                         }
                     ]
                 },
@@ -1637,6 +2195,11 @@
                         {
                             "name": "ST4",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/ST4/4.0.4/ST4-4.0.4.jar"
+                        },
+                        {
+                            "name": "ST4",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/ST4/4.0.4/ST4-4.0.4-sources.jar"
                         }
                     ]
                 },
@@ -1649,6 +2212,11 @@
                         {
                             "name": "JavaEWAH",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/0.3.2/JavaEWAH-0.3.2.jar"
+                        },
+                        {
+                            "name": "JavaEWAH",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/0.3.2/JavaEWAH-0.3.2-sources.jar"
                         }
                     ]
                 },
@@ -1661,6 +2229,11 @@
                         {
                             "name": "snappy",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/iq80/snappy/snappy/0.2/snappy-0.2.jar"
+                        },
+                        {
+                            "name": "snappy",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/iq80/snappy/snappy/0.2/snappy-0.2-sources.jar"
                         }
                     ]
                 },
@@ -1685,6 +2258,11 @@
                         {
                             "name": "opencsv",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar"
+                        },
+                        {
+                            "name": "opencsv",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/net/sf/opencsv/opencsv/2.3/opencsv-2.3-sources.jar"
                         }
                     ]
                 },
@@ -1697,6 +2275,11 @@
                         {
                             "name": "bonecp",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/jolbox/bonecp/0.8.0.RELEASE/bonecp-0.8.0.RELEASE.jar"
+                        },
+                        {
+                            "name": "bonecp",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/jolbox/bonecp/0.8.0.RELEASE/bonecp-0.8.0.RELEASE-sources.jar"
                         }
                     ]
                 },
@@ -1709,6 +2292,11 @@
                         {
                             "name": "commons-cli",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.jar"
+                        },
+                        {
+                            "name": "commons-cli",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2-sources.jar"
                         }
                     ]
                 },
@@ -1721,6 +2309,11 @@
                         {
                             "name": "commons-logging",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+                        },
+                        {
+                            "name": "commons-logging",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar"
                         }
                     ]
                 },
@@ -1733,6 +2326,11 @@
                         {
                             "name": "datanucleus-api-jdo",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/datanucleus/datanucleus-api-jdo/3.2.6/datanucleus-api-jdo-3.2.6.jar"
+                        },
+                        {
+                            "name": "datanucleus-api-jdo",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/datanucleus/datanucleus-api-jdo/3.2.6/datanucleus-api-jdo-3.2.6-sources.jar"
                         }
                     ]
                 },
@@ -1745,6 +2343,11 @@
                         {
                             "name": "datanucleus-rdbms",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/datanucleus/datanucleus-rdbms/3.2.9/datanucleus-rdbms-3.2.9.jar"
+                        },
+                        {
+                            "name": "datanucleus-rdbms",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/datanucleus/datanucleus-rdbms/3.2.9/datanucleus-rdbms-3.2.9-sources.jar"
                         }
                     ]
                 },
@@ -1757,6 +2360,11 @@
                         {
                             "name": "commons-pool",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar"
+                        },
+                        {
+                            "name": "commons-pool",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4-sources.jar"
                         }
                     ]
                 },
@@ -1769,6 +2377,11 @@
                         {
                             "name": "commons-dbcp",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar"
+                        },
+                        {
+                            "name": "commons-dbcp",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4-sources.jar"
                         }
                     ]
                 },
@@ -1781,6 +2394,11 @@
                         {
                             "name": "jdo-api",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jdo/jdo-api/3.0.1/jdo-api-3.0.1.jar"
+                        },
+                        {
+                            "name": "jdo-api",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/jdo/jdo-api/3.0.1/jdo-api-3.0.1-sources.jar"
                         }
                     ]
                 },
@@ -1793,6 +2411,11 @@
                         {
                             "name": "calcite-linq4j",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/calcite/calcite-linq4j/1.2.0-incubating/calcite-linq4j-1.2.0-incubating.jar"
+                        },
+                        {
+                            "name": "calcite-linq4j",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/calcite/calcite-linq4j/1.2.0-incubating/calcite-linq4j-1.2.0-incubating-sources.jar"
                         }
                     ]
                 },
@@ -1805,6 +2428,11 @@
                         {
                             "name": "eigenbase-properties",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/net/hydromatic/eigenbase-properties/1.1.5/eigenbase-properties-1.1.5.jar"
+                        },
+                        {
+                            "name": "eigenbase-properties",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/net/hydromatic/eigenbase-properties/1.1.5/eigenbase-properties-1.1.5-sources.jar"
                         }
                     ]
                 },
@@ -1817,6 +2445,11 @@
                         {
                             "name": "httpcore",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar"
+                        },
+                        {
+                            "name": "httpcore",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10-sources.jar"
                         }
                     ]
                 },
@@ -1829,6 +2462,11 @@
                         {
                             "name": "scala-parser-combinators_2.11",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.1.0/scala-parser-combinators_2.11-1.1.0.jar"
+                        },
+                        {
+                            "name": "scala-parser-combinators_2.11",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.1.0/scala-parser-combinators_2.11-1.1.0-sources.jar"
                         }
                     ]
                 },
@@ -1841,6 +2479,11 @@
                         {
                             "name": "janino",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/janino/janino/3.0.16/janino-3.0.16.jar"
+                        },
+                        {
+                            "name": "janino",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/janino/janino/3.0.16/janino-3.0.16-sources.jar"
                         }
                     ]
                 },
@@ -1853,6 +2496,11 @@
                         {
                             "name": "commons-compiler",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/janino/commons-compiler/3.0.16/commons-compiler-3.0.16.jar"
+                        },
+                        {
+                            "name": "commons-compiler",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/janino/commons-compiler/3.0.16/commons-compiler-3.0.16-sources.jar"
                         }
                     ]
                 },
@@ -1865,6 +2513,11 @@
                         {
                             "name": "antlr4-runtime",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.7/antlr4-runtime-4.7.jar"
+                        },
+                        {
+                            "name": "antlr4-runtime",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.7/antlr4-runtime-4.7-sources.jar"
                         }
                     ]
                 },
@@ -1877,6 +2530,11 @@
                         {
                             "name": "orc-shims",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/orc/orc-shims/1.5.5/orc-shims-1.5.5.jar"
+                        },
+                        {
+                            "name": "orc-shims",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/orc/orc-shims/1.5.5/orc-shims-1.5.5-sources.jar"
                         }
                     ]
                 },
@@ -1889,6 +2547,11 @@
                         {
                             "name": "protobuf-java",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar"
+                        },
+                        {
+                            "name": "protobuf-java",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0-sources.jar"
                         }
                     ]
                 },
@@ -1901,6 +2564,11 @@
                         {
                             "name": "aircompressor",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/io/airlift/aircompressor/0.10/aircompressor-0.10.jar"
+                        },
+                        {
+                            "name": "aircompressor",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/io/airlift/aircompressor/0.10/aircompressor-0.10-sources.jar"
                         }
                     ]
                 },
@@ -1913,6 +2581,11 @@
                         {
                             "name": "parquet-common",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/parquet/parquet-common/1.10.1/parquet-common-1.10.1.jar"
+                        },
+                        {
+                            "name": "parquet-common",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/parquet/parquet-common/1.10.1/parquet-common-1.10.1-sources.jar"
                         }
                     ]
                 },
@@ -1925,6 +2598,11 @@
                         {
                             "name": "parquet-encoding",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/parquet/parquet-encoding/1.10.1/parquet-encoding-1.10.1.jar"
+                        },
+                        {
+                            "name": "parquet-encoding",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/parquet/parquet-encoding/1.10.1/parquet-encoding-1.10.1-sources.jar"
                         }
                     ]
                 },
@@ -1937,6 +2615,11 @@
                         {
                             "name": "parquet-format",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/parquet/parquet-format/2.4.0/parquet-format-2.4.0.jar"
+                        },
+                        {
+                            "name": "parquet-format",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/parquet/parquet-format/2.4.0/parquet-format-2.4.0-sources.jar"
                         }
                     ]
                 },
@@ -1949,6 +2632,11 @@
                         {
                             "name": "parquet-jackson",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/parquet/parquet-jackson/1.10.1/parquet-jackson-1.10.1.jar"
+                        },
+                        {
+                            "name": "parquet-jackson",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/parquet/parquet-jackson/1.10.1/parquet-jackson-1.10.1-sources.jar"
                         }
                     ]
                 },
@@ -1961,6 +2649,11 @@
                         {
                             "name": "arrow-format",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-format/0.10.0/arrow-format-0.10.0.jar"
+                        },
+                        {
+                            "name": "arrow-format",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-format/0.10.0/arrow-format-0.10.0-sources.jar"
                         }
                     ]
                 },
@@ -1973,6 +2666,11 @@
                         {
                             "name": "arrow-memory",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-memory/0.10.0/arrow-memory-0.10.0.jar"
+                        },
+                        {
+                            "name": "arrow-memory",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/arrow/arrow-memory/0.10.0/arrow-memory-0.10.0-sources.jar"
                         }
                     ]
                 },
@@ -1985,6 +2683,11 @@
                         {
                             "name": "hppc",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/carrotsearch/hppc/0.7.2/hppc-0.7.2.jar"
+                        },
+                        {
+                            "name": "hppc",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/carrotsearch/hppc/0.7.2/hppc-0.7.2-sources.jar"
                         }
                     ]
                 },
@@ -1997,6 +2700,11 @@
                         {
                             "name": "flatbuffers",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vlkan/flatbuffers/1.2.0-3f79e055/flatbuffers-1.2.0-3f79e055.jar"
+                        },
+                        {
+                            "name": "flatbuffers",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vlkan/flatbuffers/1.2.0-3f79e055/flatbuffers-1.2.0-3f79e055-sources.jar"
                         }
                     ]
                 },
@@ -2009,6 +2717,11 @@
                         {
                             "name": "minlog",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/esotericsoftware/minlog/1.3.0/minlog-1.3.0.jar"
+                        },
+                        {
+                            "name": "minlog",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/esotericsoftware/minlog/1.3.0/minlog-1.3.0-sources.jar"
                         }
                     ]
                 },
@@ -2021,6 +2734,11 @@
                         {
                             "name": "objenesis",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar"
+                        },
+                        {
+                            "name": "objenesis",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1-sources.jar"
                         }
                     ]
                 },
@@ -2045,6 +2763,11 @@
                         {
                             "name": "commons-collections",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar"
+                        },
+                        {
+                            "name": "commons-collections",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2-sources.jar"
                         }
                     ]
                 },
@@ -2057,6 +2780,11 @@
                         {
                             "name": "commons-configuration",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar"
+                        },
+                        {
+                            "name": "commons-configuration",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-configuration/commons-configuration/1.6/commons-configuration-1.6-sources.jar"
                         }
                     ]
                 },
@@ -2069,6 +2797,11 @@
                         {
                             "name": "gson",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar"
+                        },
+                        {
+                            "name": "gson",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.2.4/gson-2.2.4-sources.jar"
                         }
                     ]
                 },
@@ -2081,6 +2814,11 @@
                         {
                             "name": "hadoop-auth",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.6.5/hadoop-auth-2.6.5.jar"
+                        },
+                        {
+                            "name": "hadoop-auth",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.6.5/hadoop-auth-2.6.5-sources.jar"
                         }
                     ]
                 },
@@ -2093,6 +2831,11 @@
                         {
                             "name": "curator-client",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/curator/curator-client/2.6.0/curator-client-2.6.0.jar"
+                        },
+                        {
+                            "name": "curator-client",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/curator/curator-client/2.6.0/curator-client-2.6.0-sources.jar"
                         }
                     ]
                 },
@@ -2105,6 +2848,11 @@
                         {
                             "name": "htrace-core",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/htrace/htrace-core/3.0.4/htrace-core-3.0.4.jar"
+                        },
+                        {
+                            "name": "htrace-core",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/htrace/htrace-core/3.0.4/htrace-core-3.0.4-sources.jar"
                         }
                     ]
                 },
@@ -2117,6 +2865,11 @@
                         {
                             "name": "jetty-util",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar"
+                        },
+                        {
+                            "name": "jetty-util",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26-sources.jar"
                         }
                     ]
                 },
@@ -2141,6 +2894,11 @@
                         {
                             "name": "hadoop-mapreduce-client-common",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.6.5/hadoop-mapreduce-client-common-2.6.5.jar"
+                        },
+                        {
+                            "name": "hadoop-mapreduce-client-common",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.6.5/hadoop-mapreduce-client-common-2.6.5-sources.jar"
                         }
                     ]
                 },
@@ -2153,6 +2911,11 @@
                         {
                             "name": "hadoop-mapreduce-client-shuffle",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.6.5/hadoop-mapreduce-client-shuffle-2.6.5.jar"
+                        },
+                        {
+                            "name": "hadoop-mapreduce-client-shuffle",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.6.5/hadoop-mapreduce-client-shuffle-2.6.5-sources.jar"
                         }
                     ]
                 },
@@ -2165,6 +2928,11 @@
                         {
                             "name": "hadoop-yarn-common",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.6.5/hadoop-yarn-common-2.6.5.jar"
+                        },
+                        {
+                            "name": "hadoop-yarn-common",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.6.5/hadoop-yarn-common-2.6.5-sources.jar"
                         }
                     ]
                 },
@@ -2177,6 +2945,11 @@
                         {
                             "name": "json4s-ast_2.11",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-ast_2.11/3.5.3/json4s-ast_2.11-3.5.3.jar"
+                        },
+                        {
+                            "name": "json4s-ast_2.11",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-ast_2.11/3.5.3/json4s-ast_2.11-3.5.3-sources.jar"
                         }
                     ]
                 },
@@ -2189,6 +2962,11 @@
                         {
                             "name": "json4s-scalap_2.11",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-scalap_2.11/3.5.3/json4s-scalap_2.11-3.5.3.jar"
+                        },
+                        {
+                            "name": "json4s-scalap_2.11",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-scalap_2.11/3.5.3/json4s-scalap_2.11-3.5.3-sources.jar"
                         }
                     ]
                 },
@@ -2201,6 +2979,11 @@
                         {
                             "name": "scala-xml_2.11",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.6/scala-xml_2.11-1.0.6.jar"
+                        },
+                        {
+                            "name": "scala-xml_2.11",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.6/scala-xml_2.11-1.0.6-sources.jar"
                         }
                     ]
                 },
@@ -2213,6 +2996,11 @@
                         {
                             "name": "hk2-utils",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/hk2-utils/2.4.0-b34/hk2-utils-2.4.0-b34.jar"
+                        },
+                        {
+                            "name": "hk2-utils",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/hk2-utils/2.4.0-b34/hk2-utils-2.4.0-b34-sources.jar"
                         }
                     ]
                 },
@@ -2225,6 +3013,11 @@
                         {
                             "name": "aopalliance-repackaged",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b34/aopalliance-repackaged-2.4.0-b34.jar"
+                        },
+                        {
+                            "name": "aopalliance-repackaged",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b34/aopalliance-repackaged-2.4.0-b34-sources.jar"
                         }
                     ]
                 },
@@ -2237,6 +3030,11 @@
                         {
                             "name": "javassist",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar"
+                        },
+                        {
+                            "name": "javassist",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA-sources.jar"
                         }
                     ]
                 },
@@ -2249,6 +3047,11 @@
                         {
                             "name": "stringtemplate",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar"
+                        },
+                        {
+                            "name": "stringtemplate",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1-sources.jar"
                         }
                     ]
                 },
@@ -2273,6 +3076,11 @@
                         {
                             "name": "jta",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/transaction/jta/1.1/jta-1.1.jar"
+                        },
+                        {
+                            "name": "jta",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/transaction/jta/1.1/jta-1.1-sources.jar"
                         }
                     ]
                 },
@@ -2285,6 +3093,11 @@
                         {
                             "name": "commons-digester",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-digester/commons-digester/1.8/commons-digester-1.8.jar"
+                        },
+                        {
+                            "name": "commons-digester",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-digester/commons-digester/1.8/commons-digester-1.8-sources.jar"
                         }
                     ]
                 },
@@ -2297,6 +3110,11 @@
                         {
                             "name": "apacheds-kerberos-codec",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/directory/server/apacheds-kerberos-codec/2.0.0-M15/apacheds-kerberos-codec-2.0.0-M15.jar"
+                        },
+                        {
+                            "name": "apacheds-kerberos-codec",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/directory/server/apacheds-kerberos-codec/2.0.0-M15/apacheds-kerberos-codec-2.0.0-M15-sources.jar"
                         }
                     ]
                 },
@@ -2309,6 +3127,11 @@
                         {
                             "name": "xml-apis",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar"
+                        },
+                        {
+                            "name": "xml-apis",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04-sources.jar"
                         }
                     ]
                 },
@@ -2321,6 +3144,11 @@
                         {
                             "name": "hadoop-yarn-client",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-client/2.6.5/hadoop-yarn-client-2.6.5.jar"
+                        },
+                        {
+                            "name": "hadoop-yarn-client",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-client/2.6.5/hadoop-yarn-client-2.6.5-sources.jar"
                         }
                     ]
                 },
@@ -2333,6 +3161,11 @@
                         {
                             "name": "hadoop-yarn-server-common",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.6.5/hadoop-yarn-server-common-2.6.5.jar"
+                        },
+                        {
+                            "name": "hadoop-yarn-server-common",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.6.5/hadoop-yarn-server-common-2.6.5-sources.jar"
                         }
                     ]
                 },
@@ -2345,6 +3178,11 @@
                         {
                             "name": "jaxb-api",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2.jar"
+                        },
+                        {
+                            "name": "jaxb-api",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2-sources.jar"
                         }
                     ]
                 },
@@ -2357,6 +3195,11 @@
                         {
                             "name": "jackson-jaxrs",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/jackson/jackson-jaxrs/1.9.13/jackson-jaxrs-1.9.13.jar"
+                        },
+                        {
+                            "name": "jackson-jaxrs",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/jackson/jackson-jaxrs/1.9.13/jackson-jaxrs-1.9.13-sources.jar"
                         }
                     ]
                 },
@@ -2369,6 +3212,11 @@
                         {
                             "name": "jackson-xc",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/jackson/jackson-xc/1.9.13/jackson-xc-1.9.13.jar"
+                        },
+                        {
+                            "name": "jackson-xc",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/jackson/jackson-xc/1.9.13/jackson-xc-1.9.13-sources.jar"
                         }
                     ]
                 },
@@ -2381,6 +3229,11 @@
                         {
                             "name": "hadoop-yarn-server-nodemanager",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.6.5/hadoop-yarn-server-nodemanager-2.6.5.jar"
+                        },
+                        {
+                            "name": "hadoop-yarn-server-nodemanager",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.6.5/hadoop-yarn-server-nodemanager-2.6.5-sources.jar"
                         }
                     ]
                 },
@@ -2393,6 +3246,11 @@
                         {
                             "name": "javax.inject",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar"
+                        },
+                        {
+                            "name": "javax.inject",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar"
                         }
                     ]
                 },
@@ -2405,6 +3263,11 @@
                         {
                             "name": "commons-beanutils",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar"
+                        },
+                        {
+                            "name": "commons-beanutils",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0-sources.jar"
                         }
                     ]
                 },
@@ -2417,6 +3280,11 @@
                         {
                             "name": "apacheds-i18n",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/directory/server/apacheds-i18n/2.0.0-M15/apacheds-i18n-2.0.0-M15.jar"
+                        },
+                        {
+                            "name": "apacheds-i18n",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/directory/server/apacheds-i18n/2.0.0-M15/apacheds-i18n-2.0.0-M15-sources.jar"
                         }
                     ]
                 },
@@ -2429,6 +3297,11 @@
                         {
                             "name": "api-asn1-api",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/directory/api/api-asn1-api/1.0.0-M20/api-asn1-api-1.0.0-M20.jar"
+                        },
+                        {
+                            "name": "api-asn1-api",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/directory/api/api-asn1-api/1.0.0-M20/api-asn1-api-1.0.0-M20-sources.jar"
                         }
                     ]
                 },
@@ -2441,6 +3314,11 @@
                         {
                             "name": "api-util",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/directory/api/api-util/1.0.0-M20/api-util-1.0.0-M20.jar"
+                        },
+                        {
+                            "name": "api-util",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/directory/api/api-util/1.0.0-M20/api-util-1.0.0-M20-sources.jar"
                         }
                     ]
                 },
@@ -2453,6 +3331,11 @@
                         {
                             "name": "jline",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/0.9.94/jline-0.9.94.jar"
+                        },
+                        {
+                            "name": "jline",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/0.9.94/jline-0.9.94-sources.jar"
                         }
                     ]
                 },
@@ -2465,6 +3348,11 @@
                         {
                             "name": "guice",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/inject/guice/3.0/guice-3.0.jar"
+                        },
+                        {
+                            "name": "guice",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/inject/guice/3.0/guice-3.0-sources.jar"
                         }
                     ]
                 },
@@ -2477,6 +3365,11 @@
                         {
                             "name": "stax-api",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar"
+                        },
+                        {
+                            "name": "stax-api",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2-sources.jar"
                         }
                     ]
                 },
@@ -2489,6 +3382,11 @@
                         {
                             "name": "jettison",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.1/jettison-1.1.jar"
+                        },
+                        {
+                            "name": "jettison",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.1/jettison-1.1-sources.jar"
                         }
                     ]
                 },
@@ -2501,6 +3399,11 @@
                         {
                             "name": "aopalliance",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar"
+                        },
+                        {
+                            "name": "aopalliance",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar"
                         }
                     ]
                 },
@@ -2513,6 +3416,11 @@
                         {
                             "name": "scala-library",
                             "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/jonesgc/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12-sources.jar"
                         }
                     ]
                 }

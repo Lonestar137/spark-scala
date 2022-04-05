@@ -8,17 +8,22 @@ ThisBuild / organizationName := "example"
 
 
 lazy val spark = Seq(
-  "org.apache.spark" %% "spark-core" % "2.4.8" % "provided",
-  "org.apache.spark" %% "spark-hive" % "2.4.8" % "provided",
-  "org.apache.spark" %% "spark-sql" % "2.4.8" % "provided"
+  "org.apache.spark" %% "spark-core" % "2.4.8",
+  "org.apache.spark" %% "spark-hive" % "2.4.8",
+  "org.apache.spark" %% "spark-sql" % "2.4.8"
 
+)
+
+lazy val csv = Seq(
+  "com.github.tototoshi" %% "scala-csv" % "1.3.10"
 )
 
 lazy val root = (project in file("."))
   .settings(
     name := "spark-scala",
     libraryDependencies += scalaTest % Test,
-    libraryDependencies ++= spark
+    libraryDependencies ++= spark,
+    libraryDependencies ++= csv
   )
 
 
