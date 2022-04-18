@@ -14,6 +14,10 @@ lazy val spark = Seq(
 
 )
 
+lazy val jdbc = Seq(
+  "org.apache.hive" % "hive-jdbc" % "3.1.2"
+)
+
 lazy val csv = Seq(
   "com.github.tototoshi" %% "scala-csv" % "1.3.10"
 )
@@ -23,7 +27,8 @@ lazy val root = (project in file("."))
     name := "spark-scala",
     libraryDependencies += scalaTest % Test,
     libraryDependencies ++= spark,
-    libraryDependencies ++= csv
+    libraryDependencies ++= csv,
+    libraryDependencies ++= jdbc
   )
 
 

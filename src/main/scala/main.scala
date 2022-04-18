@@ -1,4 +1,14 @@
 
+//jdbc
+import java.sql.DriverManager
+import java.sql.Connection
+import scala.annotation.meta.setter
+import org.apache.hive.jdbc.HiveDriver
+import java.sql.ResultSetMetaData
+
+
+
+//spark
 import org.apache.spark.sql.types.{StringType, StructField, StructType}
 import org.apache.spark.sql.Row
 import org.apache.spark.sql.functions._
@@ -44,7 +54,7 @@ trait OutputFunctions {
 
 }
 
-object myspark extends OutputFunctions{
+object myspark extends OutputFunctions {
 
 // Returns 2d List of CSV file.
   def readCSV(file: String, printResult: Boolean = false, printLimit: Int = 20): List[List[Any]] = {
@@ -126,17 +136,17 @@ object myspark extends OutputFunctions{
 
 
 
-
   //convert lines to a String arrray 
   //val strArr = lines.map(lst => lst.mkString(","))
   //val rdd =sc.parallelize(strArr)
   //val rdd1 = rdd.flatMap(x=>x.split(" "))
+  
   import  spark.implicits._
   println("rdd class: "+rdd.getClass)
   val df = rdd1.toDF("word")
   println(df.getClass)
   df.createOrReplaceTempView("tempTable")
-  val rslt=spark.sql("select word,COUNT(1) from tempTable GROUP BY word ")
+  val rslt=spark.sql("select word,COUNT(word) from tempTable GROUP BY word ")
   rslt.show(1000,false)
 
 
@@ -163,45 +173,76 @@ object myspark extends OutputFunctions{
 
 
   }
+}
+
+object sparkConnect extends OutputFunctions {
+    var server = "publicsandbox" //IP/DN address of the server
+    var port = "10000"
+    var db = "test"
+    var table = "test"
+    var user = "hive"
+    var pass = "hive"
+
+    def connectToHive(){
+        val conf = new SparkConf().setAppName("SparkSQL").setMaster("local[*]")
+        val sc = new SparkContext(conf)
+        val spark = new SparkSession.Builder().config(conf).getOrCreate()
+        spark.read.format("jdbc")
+            .option("url", "jdbc:hive2://"+server+":"+10000+"/"+db)
+            .option("dbtable", table)
+            .option("user", user)
+            .option("password", pass)
+            .load()
+
+        // Create a SparkContext to initialize Spark
+        val sqlContext = new org.apache.spark.sql.SQLContext(sc)
+        val hiveContext = new org.apache.spark.sql.hive.HiveContext(sc)
+        import sqlContext.implicits._
+        import hiveContext.implicits._
+        println("Connected to Hive")
+        //val sql = "select * from test"
+        //val df = spark.sql(sql)
+        //df.show(10,false)
 
 
-
-
-
+    }
 
 }
 
 
 object Main extends App{
+    def unitTest() = {
+      myspark.test()
+    }
 
-  def test(){
+    def spark2(){
+        val warehouseLocation = "file:${system:user.dir}/spark-warehouse"
+        println("warehouseLocation: "+warehouseLocation)
+        //val conf = new org.apache.spark.SparkConf().setAppName("SparkSQL")
+        //val sc = new org.apache.spark.SparkContext(conf)
+
+        val spark = SparkSession
+          .builder()
+          .appName("SparkSQL")
+          .config("spark.sql.warehouse.dir", warehouseLocation)
+          .enableHiveSupport()
+          .getOrCreate()
+
+        import spark.implicits._
+        import spark.sql
+        sql("USER movies")
+        sql("SELECT * FROM movies LIMIT 10").show()
+
+        spark.stop()
+
+    }
+
+    //unitTest()
+    sparkConnect.connectToHive()
 
 
-  val conf= new SparkConf().setAppName("test").setMaster("local")
-  val sc =new SparkContext(conf)
-  val spark=SparkSession.builder().config(conf).getOrCreate()
-  sc.setLogLevel("ERROR")
-  val line1 = "live life enjoy detox"
-  val line2="learn apply live motivate"
-  val line3="life detox motivate live learn"
-  val rdd =sc.parallelize(Array(line1,line2,line3))
-  val rdd1 = rdd.flatMap(x=>x.split(" "))
-  import  spark.implicits._
-  println("rdd class: "+rdd.getClass)
-  val df = rdd1.toDF("word")
-  println(df.getClass)
-  df.createOrReplaceTempView("tempTable")
-  val rslt=spark.sql("select word,COUNT(1) from tempTable GROUP BY word ")
-  rslt.show(1000,false)
-
-
-  }
-
-  println("Hello")
-  myspark.test()
-  //myspark.readCSV("/home/jonesgc/Documents/countries.csv", true)
-
-  //test()
-
+    //spark2()
+    //val warehouseLocation = new File("/spark-warehouse").getAbsolutePath
+    //println("warehouseLocation: "+warehouseLocation)
     
 }
